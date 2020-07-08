@@ -8,6 +8,15 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 
 ## New APIs in this version
 
+1) [Get device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20API%20server%20settings%20API.md)<br>
+2) [Get device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20CLI%20settings%20API.md)<br>
+3) [Get device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20SNMP%20settings%20API.md)<br>
+4) [Get shared device settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20shared%20device%20settings%20API.md)<br>
+5) [Update device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20API%20server%20settings%20API.md)<br>
+6) [Update device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20CLI%20settings%20API.md)<br>
+7) [Update device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20SNMP%20settings%20API.md)<br>
+8) [Update device basic settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20basic%20settings%20API.md)<br>
+9) [Audit Logs API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Audit%20Logs/Audit%20Logs%20REST%20API%20Design.md)<br>
 
 
 
@@ -142,6 +151,16 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 13) [Replace Site Devices API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Site%20Management/Replace%20Site%20Devices%20API.md)<br>
 14) [Site Transaction Heartbeat API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Site%20Management/Site%20Transaction%20Heartbeat%20API.md)
 
+### [Shared Device Setting Management](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management) 
+1) [Get device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20API%20server%20settings%20API.md)<br>
+2) [Get device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20CLI%20settings%20API.md)<br>
+3) [Get device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20SNMP%20settings%20API.md)<br>
+4) [Get shared device settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20shared%20device%20settings%20API.md)<br>
+5) [Update device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20API%20server%20settings%20API.md)<br>
+6) [Update device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20CLI%20settings%20API.md)<br>
+7) [Update device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20SNMP%20settings%20API.md)<br>
+8) [Update device basic settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20basic%20settings%20API.md)<br>
+
 ### [Tenants and Domains Management](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management) 
 1) [Add Domain API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Add%20Domain%20API.md)<br>
 2) [Add Tenant API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Add%20Tenant%20API.md)<br>
@@ -208,3 +227,7 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 ### [Event Trigger API Design](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Event%20Driven%20Trigger)
 1) [Create triggered event API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Create%20triggered%20event%20API.md)<br>
 2) [Get triggered event running status API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Get%20Triggered%20Event%20Status%20API.md)<br>
+
+
+### [Audit Logs Design](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Audit%20Logs)
+1) [Audit Logs API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Audit%20Logs/Audit%20Logs%20REST%20API%20Design.md)<br>
