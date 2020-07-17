@@ -48,7 +48,7 @@ Call this API to trigger a map built by Netbrain from third part software.
 | map_setting.map_path_para.direction | int | path direction | 
 | map_setting.map_path_para.protocol | int | protocol id |
 | map_setting.map_path_para.protocol_name | string | protocol name |
-| ### | ### | How to find protocol id and name, please check the end of this page.|
+| ### | ### | ***Note:*** How to find protocol id and name, please check the end of this page.|
 | map_setting.map_path_para.path_analysis_set | string | path analysis set id |
 | map_setting.map_path_para.path_analysis_set_name | string | path analysis set name | 
 | map_setting.map_path_para.dataSource | object | path run data source |
