@@ -265,4 +265,4 @@ curl --location --request POST 'https://integrationlab.netbraintech.com/Services
 
 # How to find Protocol ID and Name:
 <img src="REST APIs Documentation/Trigger Diagnosis API/protocol path.PNG" /><br>
-<img src="REST APIs Documentation/Trigger Diagnosis API/protocol info.JPG" />
+<img src="REST APIs Documentation/Trigger Diagnosis API/Protocol info.JPG" />
