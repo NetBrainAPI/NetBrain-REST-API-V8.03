@@ -6,7 +6,7 @@
 | Name | Type | Description |
 |---|---|---|
 |search_well_known_map_setting |object	|search Well-known map setting|
-|search_well_known_map_setting.folder* |string	|Customized folder path to save the well known map.|
+|search_well_known_map_setting.folder* |string	|Customized folder path to save the well known map. <br> Sample: Public/Known-Problems/Applications/Cisco TelePresence|
 |###|###| ***Note:*** If NOT provided, exception is throw and returned in the API response as “folder path in search well known map setting not defined”|
 |search_well_known_map_setting.map_count |integer	|Number of well-known maps allowed to be return. Max number can be 10 amd min can be 1.|
 |search_well_known_map_setting.execute_runbook |bool	|Whether executing runbook on matched maps|
