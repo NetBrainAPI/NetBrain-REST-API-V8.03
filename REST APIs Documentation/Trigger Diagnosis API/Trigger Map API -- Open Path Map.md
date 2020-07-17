@@ -45,7 +45,7 @@ Call this API to trigger a map built by Netbrain from third part software.
 | map_setting.map_path_para.destination_gateway_dev | string | destination gateway device name |
 | map_setting.map_path_para.destination_gateway_intf | string | destination gateway interface name |
 | map_setting.map_path_para.destination_port | string | destination port |
-| map_setting.map_path_para.direction | int | path direction | 
+| map_setting.map_path_para.direction | int | path direction<br> 1: one direction<br> 2: both direction | 
 | map_setting.map_path_para.protocol | int | protocol id |
 | map_setting.map_path_para.protocol_name | string | protocol name |
 | ### | ### | ***Note:*** How to find protocol id and name, please check the end of this page.|
