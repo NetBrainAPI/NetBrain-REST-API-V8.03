@@ -264,5 +264,5 @@ curl --location --request POST 'https://integrationlab.netbraintech.com/Services
 ```
 
 # How to find Protocol ID and Name:
-<img src="protocol path.PNG" /><br>
+<img src="protocol path.png" /><br>
 <img src="Protocol info.JPG" />
