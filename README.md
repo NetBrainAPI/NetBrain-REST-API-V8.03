@@ -81,6 +81,7 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 3) [Delete Device Group API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Device%20Group%20Management/Delete%20Device%20Group.md)<br>
 4) [Delete devices from Device Group API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Device%20Group%20Management/Delete%20Devices%20from%20Group.md)<br>
 5) [Get devices of Device Group API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Device%20Group%20Management/Get%20Devices%20of%20Group.md)<br>
+6) [Get Device Groups API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Group%20API.md)<br>
 
 
 ### [Discovery Task Management](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Discovery%20Task%20Management) 
