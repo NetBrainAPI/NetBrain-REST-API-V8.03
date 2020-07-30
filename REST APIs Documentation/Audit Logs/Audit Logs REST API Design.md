@@ -84,9 +84,6 @@ Response
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 {
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     "auditLogs":[
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -211,10 +208,7 @@ Response
 | Code   | Message             | Description                                                                                                                                                                                                                                                                         |
 |--------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 790200 | OK                  |                                                                                                                                                                                                                                                                                     |
-| 791001 | InvalidParameter    | The parameter \\"From\\" and \\"To\\" is required.
-The parameter \\"From\\" is required. The parameter \\"To\\" is required.
-The parameter \\"To\\" must be greater than parameter \\"From\\".
-Parameter 'limit' must be greater than or equal to 10 and less than or equal to 100. |
+| 791001 | InvalidParameter    | The parameter \\"From\\" and \\"To\\" is required.<br>The parameter \\"From\\" is required. The parameter \\"To\\" is required.<br>The parameter \\"To\\" must be greater than parameter \\"From\\".<br>Parameter 'limit' must be greater than or equal to 10 and less than or equal to 100. |
 | 793001 | InternalServerError | System framework level error                                                                                                                                                                                                                                                        |
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
