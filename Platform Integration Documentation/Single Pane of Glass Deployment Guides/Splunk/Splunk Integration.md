@@ -10,7 +10,7 @@ Use Case
 
 Description
 -----------
-One of the most advantage feature from Netbrain to help Network Engineer to trouble shoot their network issues is the NetBrain dynamic map. And the most powerful capability of Netbrain dynamic map is the map can be seen as a container for tons of network data. To enhance the network information on dynamic map and help NetBrain users to get the benefit from Splunk database, we provide a integrate solution between NetBrain and Splunk to enable the feature which can visualizes Splunk search reault base on different search query to NetBrain dynamic maps per each device. NetBrain users can check all available data which can be queried in Splunk Enterprise system per different search query. For example, server IIS logs, device system logs and all those data sources from third party systems or Splunk forwarder which can be checked in Splunk.
+One of the most advantage feature from Netbrain to help Network Engineer trouble shoot their network issues is the NetBrain dynamic map. And the most powerful capability of Netbrain dynamic map is the map can be considered as a container for tons of network data. To enhance the network information on dynamic map and help NetBrain users to get the benefit from Splunk database, we provide a integrate solution between NetBrain and Splunk to enable the feature which can visualizes Splunk search result base on different search query to NetBrain dynamic maps per device. NetBrain users can view all available data which can be queried in Splunk Enterprise system base on different search query. For example, server IIS logs, device system logs and all those data sources from third party systems or Splunk forwarder.
 
 
 
