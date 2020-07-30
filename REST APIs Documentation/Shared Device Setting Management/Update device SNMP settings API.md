@@ -86,7 +86,9 @@ API Body = {
 
 ## Response
 
-|**Name**|**Type**|**Description**|
-|------|------|------|
-|statusCode|integer|Code issued by NetBrain server indicating the execution result.|
-|statusDescription|string|The explanation of the status code.|
+| Code | Message | Description |
+|--------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 790200 | OK ||
+| 794011 | OperationFailed | There is no match hostname or managementip founded.<br>This device is locked, can not be updated.<br>Invalid IP.<br>Please insert a correct snmp version.<br>Please insert a correct snmp customized management ip version. |
+| 791000 | ParameterNull | SNMP Setting is required |
+| 793001 | InternalServerError | System framework level error |

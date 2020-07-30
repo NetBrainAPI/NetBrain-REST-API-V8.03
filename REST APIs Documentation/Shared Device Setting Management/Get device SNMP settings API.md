@@ -118,3 +118,11 @@ This API is used to get device SNMP settings in current domain. The response of 
     }
 }
 ```
+
+***Response Code***
+
+| Code   | Message             | Description                                                                                                                                                                        |
+|--------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 790200 | OK                  |                                                                                                                                                                                    |
+| 791001 | InvalidParameter    | Parameter 'skip' must be a positive numeric value.<br>Parameter 'limit' must be greater than or equal to 10 and less than or equal to 100.<br>Invalid IP address provided: {0}.|
+| 793001 | InternalServerError | System framework level error                                                                                                                                                       |
