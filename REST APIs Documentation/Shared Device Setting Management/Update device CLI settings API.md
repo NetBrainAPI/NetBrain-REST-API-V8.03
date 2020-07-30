@@ -103,8 +103,9 @@ API Body = {
 
 ## Response
 
-|**Name**|**Type**|**Description**|
-|------|------|------|
-|statusCode|integer|Code issued by NetBrain server indicating the execution result.|
-|statusDescription|string|The explanation of the status code.|
-
+| Code | Message | Description |
+|--------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 790200 | OK ||
+| 794011 | OperationFailed | There is no match hostname or managementip founded.<br>This device is locked, can not be updated.<br>Invalid IP.<br>Please insert a correct cli access method value.<br>Please insert a correct cli setting mode value.<br>The privateKey can not null.<br>The cli setting privateKey can not null.<br>There is no match cli setting privateKey. |
+| 791000 | ParameterNull | CLI Setting is required |
+| 793001 | InternalServerError | System framework level error |
