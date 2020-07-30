@@ -31,7 +31,7 @@ Network Connectivity
 
 | Source                | Destination         | Protocol   |Port|
 |-----------------------|---------------------|------------|----|
-| NetBrain Front Server | Splunk Enterprise core server | HTTPS |8089|
+| NetBrain Front Server | Splunk Enterprise server | HTTPS |8089|
 
 User Account and Privileges
 ---------------------------
@@ -39,7 +39,7 @@ User Account and Privileges
 | Application | User Account | Role                                                       |
 |-------------|--------------|------------------------------------------------------------|
 | NetBrain    | Required     | System Admin                                               |
-| Splunk  | Required     | Any role that can query Splunk search job rest API.  |
+| Splunk  | Required     | Account have access to the desired data source.  |
 
 
 
