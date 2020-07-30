@@ -67,28 +67,3 @@ API Body = {
 | 794011 | OperationFailed | There is no match hostname or managementip founded.<br>This device is locked, can not be updated.<br>Invalid Manage IP.|
 | 793001 | InternalServerError | System framework level error |
 
-
-```python
-# success
-{
-    "statusCode": 790200,
-    "statusDescription": "Device <Hostname> <CLI attributes> have been updated successfully."
-}
-
-# failed
-# wrong device hostname or IP
-{
-    "statusCode": 790XXX,
-    "statusDescription": "Device <Hostname> dosen't exsit in current domain."
-}
-# no privilege
-{
-    "statusCode": 790XXX,
-    "statusDescription": "Your don't have enough privilege to change <Hostname> CLI settings."
-}
-# attributes not support to be changed
-{
-    "statusCode": 790XXX,
-    "statusDescription": "<CLI attributes> cannot be changed by API call."
-}
-```
