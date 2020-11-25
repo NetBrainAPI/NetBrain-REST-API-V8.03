@@ -94,7 +94,7 @@ This API is used to create a task to export the change analysis report.
 
 > ***Example***
 
-# Full Example:
+# Example:
 
 
 ```python
@@ -104,7 +104,7 @@ API Body = {
 	“DataTypeList”: [“config/config”],
 	“DeviceIDList”: []
 	}
-
+```
     
 ## Status Code
 

@@ -43,7 +43,7 @@ This API is used to download the change analysis report with a given taskID.
 ## Response
 
 |**Name**|**Type**|**Description**|
-|---|---|---|
+|--|------|---|
 |fileStream| "Content-Type", "application/octet-stream"<br>"Content-Length"<br>"Content-Disposition", "attachment;filename=" + filename<br> "X-Download-Options", "noopen"
 | The downloaded file stream of the change analysis report  |
 |statusCode| string | Code issued by NetBrain server indicating the execution result. |
