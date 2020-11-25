@@ -1,16 +1,16 @@
 
-# Change Analysis Report API Design -- check export task status API
+# Change Analysis Report API Design -- export change analysis report API
 
-## ***GET*** /V1/ChangeAnalysis/Export/Tasks/{taskId}/Status
-This API is used to submit a task to check the status of the export task. 
+## ***GET*** V1/ChangeAnalysis/Export/Tasks/{taskId}/Download
+This API is used to download the change analysis report with a given taskID. 
 > **Note:** : 8.03 latest patch is required.
 ## Detail Information
 
-> **Title** : Get Export Task Status for Change Analysis Report API   <br>
+> **Title** : Download Change Analysis Report API   <br>
 
 > **Version** : 10/14/2020.
 
-> **API Server URL** : http(s)://IP address of NetBrain Web API Server/ServicesAPI/API/V1/CMDB /ChangeAnalysis/Export/Tasks/{taskId}/Status 
+> **API Server URL** : http(s)://IP Address of NetBrain Web API Server/ServicesAPI/API/V1/CMDB /ChangeAnalysis/Export/Tasks/{taskId}/Download  
 
 > **Authentication** : 
 
@@ -44,9 +44,9 @@ This API is used to submit a task to check the status of the export task.
 
 |**Name**|**Type**|**Description**|
 |---|---|---|
-|fileTotal| Integer | The total amount of files need to processed  |
-|fileProcessed| Integer | The amount of files have been processed |
-|statusCode| string | Code issued by NetBrain server indicating the execution result.  |
+|fileStream| "Content-Type", "application/octet-stream"<br>"Content-Length"<br>"Content-Disposition", "attachment;filename=" + filename<br> "X-Download-Options", "noopen"
+| The downloaded file stream of the change analysis report  |
+|statusCode| string | Code issued by NetBrain server indicating the execution result. |
 |statusDescription| string | The explanation of the status code.  |
 
 ## Status Code
@@ -54,9 +54,7 @@ This API is used to submit a task to check the status of the export task.
 |**Code**|**Message**|**Description**|
 |---|---|---|
 |790200| OK | Success  |
-|793404| No resource | No resource |
-|794004| Task Not Exist | Task does not exist  |
-|793001| Internal Server Error | System Failure  |
+|793001| Internal Server Error | System framework level error  |
 
 
 
