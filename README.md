@@ -18,7 +18,10 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 7) [Update device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20SNMP%20settings%20API.md)<br>
 8) [Update device basic settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20basic%20settings%20API.md)<br>
 9) [Audit Logs API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Audit%20Logs/Audit%20Logs%20REST%20API%20Design.md)<br>
-10) [Modify NetBrain API Server Credential API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Devices%20Management/Modify%20NetBrain%20API%20Server%20Credential.md)
+10) [Modify NetBrain API Server Credential API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Devices%20Management/Modify%20NetBrain%20API%20Server%20Credential.md)<br>
+11) [Create Export Task For Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Create%20Export%20Task%20For%20Change%20Analysis%20Report%20API.md)<br>
+12) [Get Export Task Status for Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Check%20Export%20Task%20Status%20API.md)<br>
+13) [Download Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Download%20Change%20Analysis%20Report%20API.md)
 
 
 ## Section 1) Golden Use Case Templates
@@ -46,6 +49,11 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 4) [Get Benchmark Task Status API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Get%20Benchmark%20Task%20Status%20API.md)<br>
 5) [Run Benchmark Task Now API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Run%20Benchmark%20Task%20Now%20API.md)<br>
 6) [Update Benchmark Task API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Update%20Benchmark%20Task%20API.md)
+
+### [Change Analysis Report](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Change%20Analysis%20Report)
+1) [Create Export Task For Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Create%20Export%20Task%20For%20Change%20Analysis%20Report%20API.md)<br>
+2) [Get Export Task Status for Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Check%20Export%20Task%20Status%20API.md)<br>
+3) [Download Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Change%20Analysis%20Report/Download%20Change%20Analysis%20Report%20API.md)
 
 ### [Devices Management](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/tree/master/REST%20APIs%20Documentation/Devices%20Management)
 1) [Create Devices Attribute API](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.03/blob/master/REST%20APIs%20Documentation/Devices%20Management/Create%20Devices%20Attribute%20API.md)<br>
