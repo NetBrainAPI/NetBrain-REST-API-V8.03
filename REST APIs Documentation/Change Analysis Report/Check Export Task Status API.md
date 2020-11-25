@@ -3,7 +3,7 @@
 
 ## ***GET*** /V1/ChangeAnalysis/Export/Tasks/{taskId}/Status
 This API is used to submit a task to check the status of the export task. 
-Note: 8.03 Latest patch is required
+> **Note:** : 8.03 Latest patch is required.
 ## Detail Information
 
 > **Title** : Get Export Task Status for Change Analysis Report API   <br>
