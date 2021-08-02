@@ -90,7 +90,7 @@ Response
 
 >   **Example**
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Normal Response:
 
 {
@@ -100,9 +100,9 @@ Response
             "email": "suneet.tatikonda@netbraintech.com",
             "firstName": "Suneet",
             "lastName": "Tatikonda",
-			"phoneNumber": "",
+            "phoneNumber": "",
+            "description": "description",
             "allowChangePassword": true,
-			"description": "description",
             "isSystemAdmin": true,
             "isUserManager": true,
 			"TenantAndRole": [ 
@@ -127,7 +127,7 @@ Response
                     "canAddDomain": true
                 }
             ]
-            "isSystemManager": true
+            "isSystemManager": true 
         },
         {
             "username": "admin",
