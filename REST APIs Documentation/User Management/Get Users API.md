@@ -104,7 +104,7 @@ Response
 			"description": "description",
             "isSystemAdmin": true,
             "isUserManager": true,
-			"TenantAndRole": [
+			"TenantAndRole": [ 
                 {
                     "tenantId": "36eab26d-12da-f3f1-35ef-a01ca1881bb9",
                     "isAdmin": true,
