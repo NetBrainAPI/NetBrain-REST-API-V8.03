@@ -71,9 +71,6 @@ Response
 | UserData.email               | string                       | The email address of the user.                                                                                                                                                                                                                                                                                                        |
 | UserData.firstName           | string                       | The first name of the user.                                                                                                                                                                                                                                                                                                           |
 | UserData.lastName            | string                       | The last name of the user.                                                                                                                                                                                                                                                                                                            |
-| UserData.authenticationType  | int                          | The authentication type for the user account.                                                                                                                                                                                                                                                                                         |
-|                              |                              | ▪ 1 - Local                                                                                                                                                                                                                                                                                                                           |
-|                              |                              | ▪ 2 - External                                                                                                                                                                                                                                                                                                                        |
 | UserData.phoneNumber         | string                       | The phone number of the user.                                                                                                                                                                                                                                                                                                         |
 | UserData.department          | string                       | The department that the user belongs to.                                                                                                                                                                                                                                                                                              |
 | UserData.description         | string                       | Any description about the user.                                                                                                                                                                                                                                                                                                       |
@@ -102,9 +99,33 @@ Response
             "email": "suneet.tatikonda@netbraintech.com",
             "firstName": "Suneet",
             "lastName": "Tatikonda",
+			"phoneNumber": "",
             "allowChangePassword": true,
+			"description": "description",
             "isSystemAdmin": true,
             "isUserManager": true,
+			"TenantAndRole": [
+                {
+                    "tenantId": "36eab26d-12da-f3f1-35ef-a01ca1881bb9",
+                    "isAdmin": true,
+                    "domains": [],
+                    "canAddDomain": true
+                },
+                {
+                    "tenantId": "ecbfce16-328c-bf09-dffd-b59051e91d16",
+                    "isAdmin": true,
+                    "domains": [
+                        {
+                            "id": "19330f49-0987-4aab-b530-9e92344222ab",
+                            "roles": [
+                                "Domain Admin",
+                                "Domain User"
+                            ]
+                        }
+                    ],
+                    "canAddDomain": true
+                }
+            ]
             "isSystemManager": true
         },
         {
@@ -117,6 +138,28 @@ Response
             "allowChangePassword": true,
             "isSystemAdmin": true,
             "isUserManager": true,
+			"TenantAndRole": [
+                {
+                    "tenantId": "36eab26d-12da-f3f1-35ef-a01ca1881bb9",
+                    "isAdmin": true,
+                    "domains": [],
+                    "canAddDomain": true
+                },
+                {
+                    "tenantId": "ecbfce16-328c-bf09-dffd-b59051e91d16",
+                    "isAdmin": true,
+                    "domains": [
+                        {
+                            "id": "19330f49-0987-4aab-b530-9e92344222ab",
+                            "roles": [
+                                "Domain Admin",
+                                "Domain User"
+                            ]
+                        }
+                    ],
+                    "canAddDomain": true
+                }
+            ]
             "isSystemManager": true
         },
     "statusCode": 790200,
