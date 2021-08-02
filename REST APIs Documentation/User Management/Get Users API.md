@@ -105,6 +105,7 @@ Response
             "allowChangePassword": true,
             "isSystemAdmin": true,
             "isUserManager": true,
+            "isSystemManager": true,			
 			"TenantAndRole": [ 
                 {
                     "tenantId": "36eab26d-12da-f3f1-35ef-a01ca1881bb9",
@@ -126,8 +127,7 @@ Response
                     ],
                     "canAddDomain": true
                 }
-            ]
-            "isSystemManager": true 
+            ] 
         },
         {
             "username": "admin",
@@ -139,6 +139,7 @@ Response
             "allowChangePassword": true,
             "isSystemAdmin": true,
             "isUserManager": true,
+            "isSystemManager": true,
 			"TenantAndRole": [
                 {
                     "tenantId": "36eab26d-12da-f3f1-35ef-a01ca1881bb9",
@@ -161,7 +162,6 @@ Response
                     "canAddDomain": true
                 }
             ]
-            "isSystemManager": true
         },
     "statusCode": 790200,
     "statusDescription": "Success."
