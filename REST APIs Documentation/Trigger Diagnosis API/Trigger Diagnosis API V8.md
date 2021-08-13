@@ -116,7 +116,7 @@ False: no t include device’s neighbors|
 | CLI_settings[].retrieveData.showCommand | list | show command list |
 | retrieve_settings | list | Retrieve Node settings information by order |
 | retrieve_settings[].devices | list | retrieve device for the node |
-| retrieve_settings[].devices[].deviceId | string | device Id |
+| retrieve_settings[].devices[].deviceId* | string | device Id |
 | retrieve_settings[].devices[].deviceName | string | device Name |
 | retrieve_settings[].retrieveData | object | retrieve setting for retrieve of the node |
 | retrieve_settings[].retrieveData.deviceInfo | bool | retrieve device basic info flag |
