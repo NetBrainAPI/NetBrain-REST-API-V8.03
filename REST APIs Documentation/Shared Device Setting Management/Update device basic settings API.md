@@ -25,11 +25,11 @@ This API is used to update device basic settings in current domain. The response
 
 |**Name**|**Type**|**Description**|
 |------|------|------|
-|shareDeviceSettings.HostName*| string | Device hostname. |
-|shareDeviceSettings.ManageIp* | string | Device management IP address. |
-|shareDeviceSettings.ApplianceId | string | Name of front server. |
-|shareDeviceSettings.Locked| bool | Whether the device setting has been locked. |
-|shareDeviceSettings.LiveStatus| integer | live status of current device. |
+|HostName*| string | Device hostname. |
+|ManageIp* | string | Device management IP address. |
+|ApplianceId | string | Name of front server. |
+|Locked| bool | Whether the device setting has been locked. |
+|LiveStatus| integer | live status of current device. |
 
 ***Example***
 
